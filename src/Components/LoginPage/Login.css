@@ -1,0 +1,110 @@
+.parent{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.background{
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    background:  rgba(9, 9, 9, 0.85);
+    text-align: center;
+}
+
+.form-elements{
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+
+.container{
+    position: fixed;    
+    height: 600px;
+    width: 29%;
+    background: rgba(9, 9, 9, 0.85);
+    color: white;
+    max-width: 450px;
+    min-width: 350px;
+    text-align: center;
+    margin-left: 33%;
+    margin-top: 6.5%;
+    margin-bottom: 10.5%;
+    margin-right: 33%;
+}
+
+.start{
+    position: relative;
+    text-align: start;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.input{
+    margin-bottom: 18px;
+    background: #333333;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: medium;
+    color: white;
+}
+.netflix{
+    margin: 15px;
+    position: fixed;
+    height: 47px;
+    cursor: pointer;
+}
+
+.buttons{
+    
+    margin-top: 10px;
+    padding-bottom: 21px;
+    padding-top: 20px;
+    border-radius: 6px;
+    font-size: medium;
+    max-width: 385px;
+    width: 80%;
+    min-width: none;
+    font-weight: 700;
+    color: white;
+    background: #E50914;
+    cursor: pointer;
+}
+
+.remember > a{
+    text-decoration: none;
+    color: white;
+    margin-left: 53%;
+}
+
+.remember{
+    margin-top: 10px;
+}
+
+.New{
+    margin-top: 20%;
+    color: #737373;
+
+}
+
+.signup  {
+    text-decoration: none;
+    color: white;
+}
+
+.signup:hover{
+    text-decoration: underline;
+}
+
+.lastpara{
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.lastpara > a{
+    text-decoration: none;
+}
+

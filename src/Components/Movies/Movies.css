@@ -1,0 +1,44 @@
+.rowpos{
+    position: relative;
+    margin-top: 75px;
+    
+}
+
+
+.items{
+    max-height: 450px;
+    max-width: 350px;
+    margin-left: 20px;
+}
+
+.titles{
+    max-width: 367px;
+    text-align: center;
+    justify-content: center;
+}
+
+.posterz{
+    display: flex;
+    margin-left: 20px;
+    color: white;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    cursor: pointer;
+}
+
+.items:hover{
+    transform: scale(1.1);
+    background-color: #fff;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.posterz::-webkit-scrollbar{
+    display: none;
+}
+
+.heading{
+    font-size: 30px;
+    color: white;
+    margin-left: 42px;
+}

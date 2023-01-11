@@ -8,3 +8,6 @@ export const History = `discover/movie?api_key=${API_KEY}&with_genres=36&page=${
 export const Mystery = `discover/movie?api_key=${API_KEY}&with_genres=9648&page=${Math.floor(Math.random() * 10) + 1}`
 export const Science_fiction = `discover/movie?api_key=${API_KEY}&with_genres=878&page=${Math.floor(Math.random() * 10) + 1}`
 export const Horror = `discover/movie?api_key=${API_KEY}&with_genres=27&page=${Math.floor(Math.random() * 10) + 1}`
+
+//this here is for the movies section.
+export const Trending = `trending/all/day?api_key=${API_KEY}`
