@@ -2,8 +2,11 @@ import React, { useEffect, useState } from 'react'
 import '../Banner/Banner.css'
 import axios from '../../Constants/Axios'
 import { API_KEY, baseIMG } from '../../Constants/Constants'
+import { Link } from 'react-router-dom'
+
 
 function Banner() {
+
     const [movie, setMovie] = useState({})
     useEffect(()=> {
         axios.get(`trending/all/day?api_key=${API_KEY}&page=${Math.floor(Math.random() * 1000) + 1}`).then((response) => {
@@ -30,7 +33,7 @@ function Banner() {
                 <h1 className='title'>{title()}</h1>
                 <div className='banner_button'>
                     <button className='button'> Play Now</button>
-                    <button className='button'> My List</button>
+                    <Link to='/MyList'><button  className='button'> My List</button></Link>
                 </div>
                 <h5 className='description'>{ movie ? movie.overview : ''}</h5>
             </div>
