@@ -29,7 +29,7 @@ const AuthenticationState = (props) => {
         try {
 
             await createUserWithEmailAndPassword(auth, email, password);
-            navigate("/Login");
+            navigate("/");
 
 
         } catch (error) {
