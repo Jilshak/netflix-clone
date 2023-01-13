@@ -1,24 +1,24 @@
-.parent{
+.parent {
     height: 100vh;
     width: 100%;
     position: absolute;
 }
 
-.background{
+.background {
     background-size: cover;
     height: 100vh;
     color: white;
-    background:  rgba(9, 9, 9, 0.85);
+    background: rgba(9, 9, 9, 0.85);
     text-align: center;
 }
 
-.form-elements{
+.form-elements {
     margin-top: 12%;
     margin-bottom: 12%;
 }
 
-.container{
-    position: fixed;    
+.container {
+    position: fixed;
     height: 600px;
     width: 29%;
     background: rgba(9, 9, 9, 0.85);
@@ -32,14 +32,19 @@
     margin-right: 33%;
 }
 
-.start{
+.start {
     position: relative;
     text-align: start;
     margin-left: 10%;
     margin-top: 10%;
 }
 
-.input{
+
+input{
+    text-indent: 15px;
+}
+
+.input {
     margin-bottom: 18px;
     background: #333333;
     width: 80%;
@@ -50,15 +55,16 @@
     font-size: medium;
     color: white;
 }
-.netflix{
+
+.netflix {
     margin: 15px;
     position: fixed;
     height: 47px;
     cursor: pointer;
 }
 
-.buttons{
-    
+.buttons {
+
     margin-top: 10px;
     padding-bottom: 21px;
     padding-top: 20px;
@@ -73,38 +79,46 @@
     cursor: pointer;
 }
 
-.remember > a{
+.remember>a {
     text-decoration: none;
     color: white;
     margin-left: 53%;
 }
 
-.remember{
+.remember {
     margin-top: 10px;
 }
 
-.New{
+.New {
     margin-top: 20%;
     color: #737373;
 
 }
 
-.signup  {
+.signup {
     text-decoration: none;
     color: white;
 }
 
-.signup:hover{
+.signup:hover {
     text-decoration: underline;
 }
 
-.lastpara{
+.lastpara {
     color: white;
     margin-left: 5%;
     margin-right: 5%;
 }
 
-.lastpara > a{
+.lastpara>a {
     text-decoration: none;
 }
 
+.error{
+    text-align: center;
+    position: fixed;
+    margin-top: 25px;
+    margin-left: -127px;
+    background-color: rgba(223, 104, 104, 0.85);
+    border-radius: 10px;
+}
